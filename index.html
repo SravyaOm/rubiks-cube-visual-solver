@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rubik's Cube Solver</title>
+  <script src="rubiksCube.js" defer></script>
+  <script src="solver.js" defer></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+    button { margin: 10px; padding: 10px; font-size: 16px; }
+    .svg-step { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Rubik's Cube Solver</h1>
+  <button onclick="scrambleCube()">Scramble</button>
+  <button onclick="solveCube()">Solve</button>
+  <div id="steps"></div>
+</body>
+</html>
